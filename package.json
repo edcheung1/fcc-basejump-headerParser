@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/edcheung1/fcc-basejump-headerParser/issues"
   },
-  "homepage": "https://github.com/edcheung1/fcc-basejump-headerParser#readme"
+  "homepage": "https://github.com/edcheung1/fcc-basejump-headerParser#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
