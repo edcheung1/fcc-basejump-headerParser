@@ -19,7 +19,6 @@
   "homepage": "https://github.com/edcheung1/fcc-basejump-headerParser#readme",
   "dependencies": {
     "express": "^4.13.3",
-    //"express-locale": "^0.1.2",
     "express-useragent": "^0.2.4"
   },
   "devDependencies": {}
