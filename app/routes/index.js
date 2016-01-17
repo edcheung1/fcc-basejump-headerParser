@@ -8,6 +8,7 @@ module.exports = function(app) {
 		
 	app.route('/api/whoami')
 		.get(function (req,res) {
-			res.send(req.connection.remoteAddress);
+			console.log(req.headers['x-forwarded-for']);
+			res.send(req.headers['x-forwarded-for']);
 		});
 };
