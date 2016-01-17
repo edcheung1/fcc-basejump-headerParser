@@ -11,6 +11,6 @@ module.exports = function(app) {
 			var ip = req.header('x-forwarded-for') || req.connection.remoteAddress;
 			var lang = req.headers['accept-language'].split(',')[0];
 			var os = req.useragent.os;
-			res.json({ipaddress: ip, language: lang, os: os});
+			res.json({ipaddress: ip, language: lang, software: os});
 		});
 };
