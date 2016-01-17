@@ -1,11 +1,13 @@
 'use strict';
 
 var express = require('express'),
-	locale = require('express-locale'),
+	//locale = require('express-locale'),
+	useragent = require('express-useragent'),
 	routes = require('./app/routes/index.js');	
 var app = express();
 
 app.set('port', (process.env.PORT || 5000));
+app.use(useragent.express());
 
 routes(app);
 
