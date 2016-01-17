@@ -1,6 +1,7 @@
 'use strict';
 
 var express = require('express'),
+	locale = require('express-locale'),
 	routes = require('./app/routes/index.js');	
 var app = express();
 
